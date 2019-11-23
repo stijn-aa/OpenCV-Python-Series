@@ -1,7 +1,20 @@
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture(0)
+
+# index = 0
+# arr = []
+# while True:
+#     cap = cv2.VideoCapture(index)
+#     if not cap.read()[0]:
+#         break
+#     else:
+#         arr.append(cv2.VideoCapture(index))
+#     cap.release()
+#     index += 1
+# print(arr)
+
+cap = cv2.VideoCapture(2)
 
 while(True):
     # Capture frame-by-frame
